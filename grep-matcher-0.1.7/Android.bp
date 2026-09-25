@@ -2,6 +2,7 @@
 rust_library {
     name: "liboperit_grep_matcher",
     crate_name: "grep_matcher",
+    stem: "libgrep_matcher",
     crate_root: "src/lib.rs",
     cargo_pkg_version: "0.1.7",
     edition: "2021",

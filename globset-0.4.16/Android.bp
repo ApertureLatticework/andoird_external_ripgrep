@@ -2,6 +2,7 @@
 rust_library {
     name: "liboperit_globset",
     crate_name: "globset",
+    stem: "libglobset",
     crate_root: "src/lib.rs",
     cargo_pkg_version: "0.4.16",
     edition: "2021",

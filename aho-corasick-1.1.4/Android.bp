@@ -3,6 +3,7 @@
 rust_library {
     name: "liboperit_aho_corasick",
     crate_name: "aho_corasick",
+    stem: "libaho_corasick",
     crate_root: "src/lib.rs",
     cargo_pkg_version: "1.1.4",
     edition: "2021",

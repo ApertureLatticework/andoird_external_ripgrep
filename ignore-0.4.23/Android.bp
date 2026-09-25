@@ -2,6 +2,7 @@
 rust_library {
     name: "liboperit_ignore",
     crate_name: "ignore",
+    stem: "libignore",
     crate_root: "src/lib.rs",
     cargo_pkg_version: "0.4.23",
     edition: "2021",
