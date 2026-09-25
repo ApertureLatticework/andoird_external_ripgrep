@@ -27,5 +27,5 @@ vendor ripgrep 家族及其断代依赖，配 Soong `rust_library` 模块；
 
 ## 挂载
 
-local_manifests 建议挂 `path="external/operit-ripgrep"`（AOSP 自有
-external/ripgrep，避让）。
+local_manifests 挂 `path="external/operit-ripgrep"`（AOSP 树内并无
+ripgrep 仓，此名纯为自明归属）。
