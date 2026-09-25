@@ -1,5 +1,7 @@
 // ignore 0.4.23 —— 树内无，vendored（0.4.24+ 转 edition 2024，钉 0.4.23）
 rust_library {
+    // 纯依赖件：不出 dylib 安装，避让树内同名断代老模块的 install 位
+    dylib: false,
     name: "liboperit_ignore",
     crate_name: "ignore",
     stem: "libignore",

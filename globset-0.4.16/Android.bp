@@ -1,5 +1,7 @@
 // globset 0.4.16 —— 树内无，vendored（0.4.17+ 转 edition 2024，树内 rustc 1.82/1.83 不支持，钉 0.4.16）
 rust_library {
+    // 纯依赖件：不出 dylib 安装，避让树内同名断代老模块的 install 位
+    dylib: false,
     name: "liboperit_globset",
     crate_name: "globset",
     stem: "libglobset",

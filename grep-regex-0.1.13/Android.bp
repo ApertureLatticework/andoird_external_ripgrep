@@ -1,5 +1,7 @@
 // grep-regex 0.1.13 —— 树内无，vendored（0.1.14 转 edition 2024，钉 0.1.13）
 rust_library {
+    // 纯依赖件：不出 dylib 安装，避让树内同名断代老模块的 install 位
+    dylib: false,
     name: "liboperit_grep_regex",
     crate_name: "grep_regex",
     stem: "libgrep_regex",

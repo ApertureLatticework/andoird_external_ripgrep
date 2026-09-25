@@ -1,5 +1,7 @@
 // grep-matcher 0.1.7 —— 树内无，vendored（0.1.8 转 edition 2024，钉 0.1.7）
 rust_library {
+    // 纯依赖件：不出 dylib 安装，避让树内同名断代老模块的 install 位
+    dylib: false,
     name: "liboperit_grep_matcher",
     crate_name: "grep_matcher",
     stem: "libgrep_matcher",

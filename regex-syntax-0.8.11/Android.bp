@@ -1,5 +1,7 @@
 // regex-syntax 0.8.11 —— 树内 0.6 断代，vendored
 rust_library {
+    // 纯依赖件：不出 dylib 安装，避让树内同名断代老模块的 install 位
+    dylib: false,
     name: "liboperit_regex_syntax",
     crate_name: "regex_syntax",
     stem: "libregex_syntax",
