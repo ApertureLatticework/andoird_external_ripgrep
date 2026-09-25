@@ -1,0 +1,10 @@
+// grep-matcher 0.1.7 —— 树内无，vendored（0.1.8 转 edition 2024，钉 0.1.7）
+rust_library {
+    name: "liboperit_grep_matcher",
+    crate_name: "grep_matcher",
+    crate_root: "src/lib.rs",
+    cargo_pkg_version: "0.1.7",
+    edition: "2021",
+    rustlibs: ["libmemchr"],
+    visibility: ["//visibility:public"],
+}

@@ -1,0 +1,16 @@
+// grep-regex 0.1.13 —— 树内无，vendored（0.1.14 转 edition 2024，钉 0.1.13）
+rust_library {
+    name: "liboperit_grep_regex",
+    crate_name: "grep_regex",
+    crate_root: "src/lib.rs",
+    cargo_pkg_version: "0.1.13",
+    edition: "2021",
+    rustlibs: [
+        "libbstr",
+        "liblog_rust",
+        "liboperit_grep_matcher",
+        "liboperit_regex_automata",
+        "liboperit_regex_syntax",
+    ],
+    visibility: ["//visibility:public"],
+}

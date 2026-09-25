@@ -15,10 +15,10 @@ vendor ripgrep 家族及其断代依赖，配 Soong `rust_library` 模块；
 | aho-corasick-1.1.4 | liboperit_aho_corasick | 树内 0.7 断代 |
 | regex-syntax-0.8.11 | liboperit_regex_syntax | 树内 0.6 断代 |
 | regex-automata-0.4.14 | liboperit_regex_automata | 树内 0.1 断代 |
-| globset-0.4.18 | liboperit_globset | 树内无 |
-| grep-matcher-0.1.8 | liboperit_grep_matcher | 树内无 |
-| grep-regex-0.1.14 | liboperit_grep_regex | 树内无 |
-| ignore-0.4.27 | liboperit_ignore | 树内无 |
+| globset-0.4.16 | liboperit_globset | 树内无 |
+| grep-matcher-0.1.7 | liboperit_grep_matcher | 树内无 |
+| grep-regex-0.1.13 | liboperit_grep_regex | 树内无 |
+| ignore-0.4.23 | liboperit_ignore | 树内无 |
 
 ## 版本纪律
 
