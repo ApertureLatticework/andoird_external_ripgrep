@@ -1,11 +1,22 @@
 // regex-syntax 0.8.11 —— 树内 0.6 断代，vendored
+// features 为全叶闭包：Soong 不追踪 unicode→unicode-* 蕴含，逐叶显式
 rust_library_rlib {
     name: "liboperit_regex_syntax",
     crate_name: "regex_syntax",
-    stem: "libregex_syntax",
     crate_root: "src/lib.rs",
     cargo_pkg_version: "0.8.11",
     edition: "2021",
-    features: ["std", "unicode"],
+    stem: "libregex_syntax",
+    features: [
+        "std",
+        "unicode",
+        "unicode-age",
+        "unicode-bool",
+        "unicode-case",
+        "unicode-gencat",
+        "unicode-perl",
+        "unicode-script",
+        "unicode-segment",
+    ],
     visibility: ["//visibility:public"],
 }
