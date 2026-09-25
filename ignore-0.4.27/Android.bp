@@ -1,0 +1,18 @@
+// ignore 0.4.27 —— 树内无，vendored
+rust_library {
+    name: "liboperit_ignore",
+    crate_name: "ignore",
+    crate_root: "src/lib.rs",
+    cargo_pkg_version: "0.4.27",
+    edition: "2024",
+    rustlibs: [
+        "libcrossbeam_deque",
+        "liboperit_globset",
+        "liblog_rust",
+        "libmemchr",
+        "liboperit_regex_automata",
+        "libsame_file",
+        "libwalkdir",
+    ],
+    visibility: ["//visibility:public"],
+}

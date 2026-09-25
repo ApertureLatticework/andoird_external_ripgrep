@@ -1,0 +1,1 @@
+// operit ripgrep 源码线 vendored 依赖仓（顶层无模块，各 crate 目录自带 Android.bp）

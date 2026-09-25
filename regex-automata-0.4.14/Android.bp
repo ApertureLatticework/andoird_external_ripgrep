@@ -1,0 +1,24 @@
+// regex-automata 0.4.14 —— 树内 0.1 断代，vendored
+rust_library {
+    name: "liboperit_regex_automata",
+    crate_name: "regex_automata",
+    crate_root: "src/lib.rs",
+    cargo_pkg_version: "0.4.14",
+    edition: "2021",
+    features: [
+        "std",
+        "syntax",
+        "perf",
+        "unicode",
+        "meta",
+        "nfa",
+        "dfa",
+        "hybrid",
+    ],
+    rustlibs: [
+        "libmemchr",
+        "liboperit_regex_syntax",
+        "liboperit_aho_corasick",
+    ],
+    visibility: ["//visibility:public"],
+}
