@@ -8,6 +8,7 @@ rust_library_rlib {
     edition: "2021",
     features: [
         "std",
+        "alloc",   // Soong 不追踪 std→alloc 蕴含，sparse_set 模块需要显式开
         "syntax",
         "perf",
         "unicode",
