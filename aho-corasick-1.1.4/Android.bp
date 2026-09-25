@@ -1,8 +1,6 @@
 // aho-corasick 1.1.4 —— operit ripgrep 源码线 vendored
 // 树内 libaho_corasick 为 0.7 断代老线，故独立 liboperit_ 命名避让
-rust_library {
-    // 纯依赖件：不出 dylib 安装，避让树内同名断代老模块的 install 位
-    dylib: false,
+rust_library_rlib {
     name: "liboperit_aho_corasick",
     crate_name: "aho_corasick",
     stem: "libaho_corasick",

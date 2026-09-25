@@ -1,7 +1,5 @@
 // regex-automata 0.4.14 —— 树内 0.1 断代，vendored
-rust_library {
-    // 纯依赖件：不出 dylib 安装，避让树内同名断代老模块的 install 位
-    dylib: false,
+rust_library_rlib {
     name: "liboperit_regex_automata",
     crate_name: "regex_automata",
     stem: "libregex_automata",
